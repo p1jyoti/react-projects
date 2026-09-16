@@ -1,0 +1,11 @@
+We make a store so that all the  components can take/ share the data
+without depending or other components for the data
+
+1. Create Context
+--> createContext() 
+
+2. Providing the context [creating a store for the components for take the data]
+--> < myContext.Provider >
+
+3. Accesing the data from the context [use the context]
+--> useContext()
